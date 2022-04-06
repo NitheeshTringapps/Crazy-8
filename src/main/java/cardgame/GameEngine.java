@@ -30,14 +30,14 @@ public class GameEngine implements PlayerStrategy{
 	static Card.Suit declaredSuit = null;
 
 	/**
-     * Gives the player their assigned id, as well as a list of the opponents' assigned ids.
-     * <p>
-     * This method will be called by the game engine once at the very beginning (before any games
-     * are started), to allow the player to set up any initial state.
-     *
-     * @param playerId    The id for this player, assigned by the game engine
-     * @param opponentIds A list of ids for this player's opponents
-     */
+        * Gives the player their assigned id, as well as a list of the opponents' assigned ids.
+        * <p>
+        * This method will be called by the game engine once at the very beginning (before any games
+        * are started), to allow the player to set up any initial state.
+        *
+        * @param playerId    The id for this player, assigned by the game engine
+        * @param opponentIds A list of ids for this player's opponents
+        */
 	@Override //initiates players and allocates their initial cards
 	public void init(int playerId, List<Integer> opponentIds) {
 		//First player
