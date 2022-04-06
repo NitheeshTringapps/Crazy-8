@@ -12,7 +12,7 @@ package automaticCardGame;
  * without any automation
  */
 public class Crazy8Game {
-	/**]
+	/**
 	 * Starts a new Game and prints the winner and their score
 	 */
 	public static void main(String[] args) {
